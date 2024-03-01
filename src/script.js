@@ -6,7 +6,7 @@ const colors = [
 ];
 
 function dokidoki() {
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    const quoteElement = document.getElementById("color");
-    quoteElement.textContent = quotes[randomIndex];
+    const randomIndex = Math.floor(Math.random() * colors.length);
+    const colorElement = document.getElementById("color");
+    colorElement.textContent = colors[randomIndex];
 }
