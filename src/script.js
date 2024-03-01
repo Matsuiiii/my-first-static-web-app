@@ -7,6 +7,6 @@ const colors = [
 
 function dokidoki() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    const quoteElement = document.getElementById("uranai");
+    const quoteElement = document.getElementById("color");
     quoteElement.textContent = quotes[randomIndex];
 }
